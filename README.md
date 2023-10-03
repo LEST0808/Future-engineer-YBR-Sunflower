@@ -1,31 +1,41 @@
 # Documentation for WRO Future Engineer 2023
-**by Team Sunflower**
+by Team *YBR-Sunflower*
+
+
+![]([https://lh3.googleusercontent.com/u/0/drive-viewer/AJc5JmS-gvzix8rqHiP9ptq7tHeZygsObiNOmIOgPZ77TDPFEsBTKvNW-LatH-ngLn_0nhACZ-FHElf1pMwIivX24kCyNMjfTw=w1920-h929](http://www2.yothinburana.ac.th/website/images/logo1.png))
+
 
 <p align="center">
   <img src="https://ybrobot.club/image/YB%20Robot%20logo.png" width="200"/>
 </p>
 <p align="center">
-  <b>By Yothinburana School Robot Club</b>
+<b>By Yothinburana School Robot Club</b>
 </p>
-
-## Our Works (YouTube Links)
-[Watch our robot in action](https://youtu.be/MBe6ZsyGE-E)
-
-## Table of Contents
-- [About Our Team](#about-our-team)
-- [Robot Design](#robot-design)
-- [Program Explanation](#program-explanation)
 <br><br><br><br>
 
-## **Part 1: About Our Team.**
-*Sunflower* is a team of three. All the team members are students at Yothinburana School. 
+## Our works (Youtube Links): 
+https://youtu.be/MBe6ZsyGE-E
+
+
+<br>
+
+
+### This Github repository contains:
+- Team information
+- Design process
+- Program explaination
+
+<br><br><br><br>
+
+# **Part 1: About our team.**
+*YBR-Sunflower* is a team of three. All the team members are students at Yothinburana School. 
 Here are team members.
 1. Vorawet Narkglom, 15 years old, programmer.
 
 2. Sakolnat Raktaengan, 15 years old, robot designer.
 
 3. Vichaiwat Koonsap, 15 years old, document designer.
-# **Part 2: Robot Design.**
+# **Part 2: Robot design.**
 ### The Robot
 
 Designing a robot is sometimes difficult. We need to design every part we intend to use, making it small, lightweight, fast, and effective. If it's too heavy, the robot will be slower. If it's too big, evading obstacles will take a lot of space. If it's ineffective, it won't be able to detect walls, obstacles, or walk properly. That's why we need to balance the robot, keeping it not too heavy, small, and fast to accomplish its mission.
@@ -54,7 +64,7 @@ A fast and incredibly user-friendly motor. Just a few minutes of soldering the w
 <br><br>
 
 - ## **Servo** : GEEKSERVO-270  a 180 degree servo.
-<image src="https://thepihut.com/cdn/shop/products/geekservo-building-brick-180-rotation-block-servo-geekservo-104134-28717056917699_1000x.jpg" width = "400">
+<image src="https://thepihut.com/cdn/shop/products/geekservo-building-brick-180-rotation-block-servo-geekservo-104134-28717056917699_1000x.jpg?v=1646869335" width = "400">
 
 We chose this servo because it is pretty easy to attach to our robot frame and got the right degree we needed to use for steering and ultrasonic which is 180 degree.
 
@@ -138,7 +148,7 @@ The camera serves the purpose of identifying color blocks (obstacles) and transm
 <br><br>
 
 - ## **Controller** :POP-32 , a 32bit controller
-<image src = "https://github.com/LEST0808/LEST0808/blob/main/POP32.png" width = "400">
+<image src = "https://github.com/LEST0808/POP32ph/blob/main/POP32%20(1).png?raw=true" width = "400">
 
 This controller is 32bit which make the reaction time faster, more accurate, better multitasking, and etc.
 
@@ -179,37 +189,4 @@ This controller is 32bit which make the reaction time faster, more accurate, bet
 
 <br><br>
 ### Our robot wiring diagram 
-# **Part 3: Program explanation**
-
-To use the program we must install these program:
-- **[Arduino IDE 2.1.1]** : For Programming your Arduino UNO
-- **[Pixymon V2]** : For displaying and configuring your Pixy
-
-And these are require library:                                                  
-
-#include  "Mapf.h"
-
-#include  <Servo.h>
-
-#include  <PID_v2.h>
-
-#include  <Pixy2I2C.h>
-
-To install library, you can use library manager in **tools** bar in your Arduino application. But for Pixy library we must download from this website : https://pixycam.com/downloads-pixy2/
-Library is require to be able to communicate with servo, sensor, or even some functions.
-
-### Main_program_no_obstacles
-https://github.com/Snackels/WRO_Future-Engineer/blob/main/scr/no%20obstacle/Main_no_obj.ino
-We will use the ultra sonic sensor to calculate the distance of robot and the wall to not be too close or too far
-
-### Function_no_obstacles
-https://github.com/Snackels/WRO_Future-Engineer/blob/main/scr/no%20obstacle/function.ino
-The robot will keep on the range with the wall by calculating gyro sensor to steering degree and it will make the robot maintain distance with the wall with PID for short or Proportional Integral Derivative.
-
-### Main_program_obstacles
-https://github.com/Snackels/WRO_Future-Engineer/blob/main/scr/obstacle/Main_obj.ino
-We use camera, gyro, and ultrasonic to calculate the steering degree.
-
-### Function_obstacles
-https://github.com/Snackels/WRO_Future-Engineer/blob/main/scr/obstacle/function.ino
-The robot will still use PID but it will add the avoidance degree.
+# **Part 3: Program explaination**
